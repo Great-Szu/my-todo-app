@@ -13,6 +13,7 @@ def write_todos(todos_arg, filepath="todos.txt"):
     with open(filepath, 'w') as file:
         file.writelines(todos_arg)
 
+
 # This is a way to run code below only while running this file not the main
 # __name__ is the name of running file
 if __name__ == "__main__":
